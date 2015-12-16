@@ -1,3 +1,4 @@
+/* Code for ALL PAGES */
 * {
   font-family: 'Lato', sans-serif; }
 
@@ -43,6 +44,15 @@ main {
   justify-content: space-between;
   position: relative; }
 
+footer {
+  text-align: left;
+  font-style: italic; }
+
+hr {
+  border: 1px solid #63A69F;}
+
+/* Code for INDEX.HTML **************************************************** */
+
 .formwrapper {
   display: block; }
 
@@ -58,6 +68,9 @@ fieldset {
 legend {
   font-weight: bold;
   color: #111; }
+
+#search {
+  margin: 1em; }
 
 /* #firstFieldset label, #secondFieldset label {
   display: block; } */
@@ -93,9 +106,19 @@ legend {
   width: 33%;
   border: 1px; }
 
+#map {
+width:600px;
+height:456px;
+margin: auto; }
+
 .detail {
   display: block;
   margin: 1em; }
+
+#resultsTable {
+  margin: 3em 2em 3em 2em; }
+
+/* For REVIEW.HTML ********************************************************** */
 
 .form {
   display: block;
@@ -106,31 +129,11 @@ legend {
   background-color: #63A69F;
   margin-bottom: 3em; }
 
-footer {
-  text-align: left;
-  font-style: italic; }
+.reviewForm {
+  display: inline-block; }
 
-hr {
-  border: 1px solid #63A69F;}
+fieldset #firstFieldset {
+  display: block;}
 
-.restaurantDetails {
-  margin-left: 20px auto;
-  display: flex;
-  flex-position: row; }
-
-.restaurantDetails p {
-  display: block; }
-
-.restaurantImagePlaceholder {
-  margin-left: 20px;
-  width: 300px;
-  height: 300px;
-  border: 1px solid #CD2C24; }
-
-.wrapper {
-  display: block; }
-
-#map {
-width:600px;
-height:456px;
-margin: 1em; }
+input[type="radio"] {
+  display: inline; }
